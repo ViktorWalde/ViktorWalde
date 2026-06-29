@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Yatoc137">
-    <img src="https://img.shields.io/badge/GitHub-Yatoc137-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  <a href="https://github.com/ViktorWalde">
+    <img src="https://img.shields.io/badge/GitHub-ViktorWalde-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/vitor-hugo-da-silva-54359b312/">
     <img src="https://img.shields.io/badge/LinkedIn-Vitor%20Hugo%20da%20Silva-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -63,7 +63,7 @@ The edge of the ecosystem. Connects operational technology to backend services t
 - 🛡️ **Resilience:** Store-and-forward buffering, reconnection handling
 - ⚙️ **Goal:** A dependable bridge between the plant floor and the cloud
 
-➡️ **[github.com/Yatoc137/SynkaCore](https://github.com/Yatoc137/SynkaCore)**
+➡️ **[github.com/ViktorWalde/SynkaCore](https://github.com/ViktorWalde/SynkaCore)**
 
 ### 🏢 Synka Studio — *Industrial Backend Platform*
 
@@ -76,7 +76,7 @@ A Java backend built for industrial environments, providing a clean foundation f
 - 🧰 **Stack:** Spring Boot · PostgreSQL · Docker · REST APIs
 - ⚙️ **Goal:** A solid, extensible backend for industrial operations
 
-➡️ **[github.com/Yatoc137/SynkaStudio](https://github.com/Yatoc137/SynkaStudio)**
+➡️ **[github.com/ViktorWalde/SynkaStudio](https://github.com/ViktorWalde/SynkaStudio)**
 
 ### 🔎 Synka Lens — *Industrial Analytics*
 
@@ -89,7 +89,7 @@ Turns raw telemetry into business information by processing historical industria
 - 🔁 **Pipeline:** Raw telemetry → structured data → dashboards
 - ⚙️ **Goal:** Make industrial data actionable for decision-making
 
-➡️ **[github.com/Yatoc137/SynkaLens](https://github.com/Yatoc137/SynkaLens)**
+➡️ **[github.com/ViktorWalde/SynkaLens](https://github.com/ViktorWalde/SynkaLens)**
 
 ---
 
@@ -129,8 +129,8 @@ Turns raw telemetry into business information by processing historical industria
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yatoc137&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yatoc137&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ViktorWalde&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViktorWalde&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 </p>
 
 ---
@@ -153,7 +153,7 @@ Modern C++ · Embedded Linux (Yocto · QEMU) · Industrial Networking · Softwar
   <a href="https://www.linkedin.com/in/vitor-hugo-da-silva-54359b312/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/Yatoc137">
+  <a href="https://github.com/ViktorWalde">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
   <a href="mailto:klaushugoruki@gmail.com">
@@ -166,5 +166,5 @@ Modern C++ · Embedded Linux (Yocto · QEMU) · Industrial Networking · Softwar
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yatoc137&style=flat-square&color=0A66C2" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=ViktorWalde&style=flat-square&color=0A66C2" alt="Profile views" />
 </p>
