@@ -54,8 +54,8 @@ Synka is an open-source ecosystem that takes data **from the factory floor to bu
 
 ### 🧠 Synka Core — *Industrial Middleware*
 
-![Status](https://img.shields.io/badge/status-v1.0%20·%20active%20development-2E8B57?style=flat-square)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Status](https://img.shields.io/badge/status-v1.2%20·%20active%20development-2E8B57?style=flat-square)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 The edge of the ecosystem. Connects operational technology to backend services through industrial protocols, keeping data flowing even when the network doesn't.
 
