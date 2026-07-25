@@ -5,11 +5,11 @@
 <h1 align="center">Vitor Hugo da Silva</h1>
 
 <p align="center">
-  <strong>Software Developer · Industrial Systems · Java · Modern C++ · Embedded Linux</strong>
+  <strong>Software Developer · Industrial Systems & Data Engineering · Java · Python · C++</strong>
 </p>
 
 <p align="center">
-  Building the <a href="#-the-synka-ecosystem"><strong>Synka</strong></a> ecosystem — open-source software for industrial communication, telemetry and data processing.
+  Building the <a href="#-the-synka-ecosystem"><strong>Synka</strong></a> ecosystem — open-source software that takes industrial data from the factory floor to business insight.
 </p>
 
 <p align="center">
@@ -29,25 +29,25 @@
 
 ## 👋 About Me
 
-I'm a **Software Developer from Brazil** focused on **industrial software**, **distributed systems** and **Embedded Linux**.
+I'm a **Software Developer from Brazil** focused on **industrial software**, **data engineering** and **distributed systems**.
 
-My work lives at the **OT/IT boundary** — connecting the operational side of the factory floor to modern backend services. That's the problem I'm solving with the **Synka ecosystem**, a set of open-source projects designed to make industrial communication, telemetry and data processing **simple, observable and resilient**.
+My work lives at the **OT/IT boundary** — connecting the operational side of the factory floor to modern backend services, and turning that raw telemetry into decision-ready data. That's the problem I'm solving with the **Synka ecosystem**, a set of open-source projects covering the full path from industrial protocols on the edge, through a resilient middleware, into a clean backend, and finally into an ETL/ELT analytics pipeline — designed to be **simple, observable and resilient**.
 
-Right now I'm deepening my mastery of **Java**, **modern C++** and **Embedded Linux**, turning real industrial problems into practical, well-engineered software.
+Right now I'm deepening my mastery of **Java**, **Python for data pipelines**, **modern C++** and **Embedded Linux**, turning real industrial problems into practical, well-engineered software — end to end, from sensor to dashboard.
 
-> 💡 I believe industrial software should be **simple to operate, observable by design, and resilient under failure** — because in the field, downtime is not an option.
+> 💡 I believe industrial data should be **simple to collect, observable in transit, and trustworthy by the time it reaches a decision-maker** — because in the field, downtime is not an option and neither is a wrong number on a dashboard.
 
 ---
 
 ## 🏭 The Synka Ecosystem
 
-Synka is an open-source ecosystem that takes data **from the factory floor to business insight** — from raw industrial protocols on the edge, through a resilient middleware, into a clean backend platform and finally into analytics.
+Synka is an open-source ecosystem that takes data **from the factory floor to business insight** — from raw industrial protocols on the edge, through a resilient middleware, into a clean backend platform and finally into an analytics pipeline.
 
 ```
   ┌──────────────┐      ┌──────────────┐      ┌──────────────┐      ┌──────────────┐
   │   Field /    │      │  Synka Core  │      │ Synka Studio │      │  Synka Lens  │
   │   OT Layer   │ ───▶ │  Middleware  │ ───▶ │   Backend    │ ───▶ │  Analytics   │
-  │ OPC UA·MQTT  │      │ Store&Forward│      │ Spring·SQL   │      │ DuckDB·BI    │
+  │ OPC UA·MQTT  │      │ Store&Forward│      │ Spring·SQL   │      │ ETL·DuckDB   │
   └──────────────┘      └──────────────┘      └──────────────┘      └──────────────┘
        Sensors            Resilient edge         OT/IT bridge          Insights
 ```
@@ -57,7 +57,7 @@ Synka is an open-source ecosystem that takes data **from the factory floor to bu
 ![Status](https://img.shields.io/badge/status-v1.2%20·%20active%20development-2E8B57?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-The edge of the ecosystem. Connects operational technology to backend services through industrial protocols, keeping data flowing even when the network doesn't.
+The edge of the ecosystem. Connects operational technology to backend services through industrial protocols, keeping data flowing even when the network doesn't — the reliability foundation everything downstream depends on.
 
 - 🔌 **Protocols:** OPC UA · MQTT
 - 🛡️ **Resilience:** Store-and-forward buffering, reconnection handling
@@ -78,16 +78,17 @@ A Java backend built for industrial environments, providing a clean foundation f
 
 ➡️ **[github.com/ViktorWalde/SynkaStudio](https://github.com/ViktorWalde/SynkaStudio)**
 
-### 🔎 Synka Lens — *Industrial Analytics*
+### 🔎 Synka Lens — *Industrial Data Engineering & Analytics*
 
 ![Status](https://img.shields.io/badge/status-v1.0%20·%20active%20development-2E8B57?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-Turns raw telemetry into business information by processing historical industrial data.
+Turns raw telemetry into business information through a layered ETL/ELT pipeline (bronze → silver → gold), with explicit data-quality checks — gap detection, status classification — at every stage before a number ever reaches a dashboard.
 
 - 📊 **Stack:** Python · DuckDB · Parquet · Streamlit
-- 🔁 **Pipeline:** Raw telemetry → structured data → dashboards
-- ⚙️ **Goal:** Make industrial data actionable for decision-making
+- 🔁 **Pipeline:** Raw telemetry → bronze (raw copy) → silver (cleaned) → gold (metrics) → dashboard
+- 🧪 **Quality:** Automated test suite covering domain rules, each transformation layer, and edge cases (data gaps, multiple machines)
+- ⚙️ **Goal:** Make industrial data actionable — and trustworthy — for decision-making
 
 ➡️ **[github.com/ViktorWalde/SynkaLens](https://github.com/ViktorWalde/SynkaLens)**
 
@@ -98,16 +99,21 @@ Turns raw telemetry into business information by processing historical industria
 **Languages**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
 
-**Backend & Data**
+**Data Engineering**
+
+![ETL/ELT](https://img.shields.io/badge/ETL%2FELT-4479A1?style=flat-square)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+**Backend**
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=flat-square)
 
 **Industrial / IoT**
@@ -137,13 +143,13 @@ Turns raw telemetry into business information by processing historical industria
 
 ## 🌱 Currently Learning
 
-Modern C++ · Embedded Linux (Yocto · QEMU) · Industrial Networking · Software Architecture
+Data Engineering (PySpark · Airflow) · Modern C++ · Embedded Linux (Yocto · QEMU) · Software Architecture
 
 ---
 
 ## 🎯 Interests
 
-`Industrial Software` · `Embedded Linux` · `Edge Computing` · `AgTech` · `Distributed Systems` · `Industrial IoT` · `Backend Engineering` · `Industrial Automation`
+`Data Engineering` · `Industrial Software` · `Embedded Linux` · `Edge Computing` · `AgTech` · `Distributed Systems` · `Industrial IoT` · `Backend Engineering` · `Industrial Automation`
 
 ---
 
