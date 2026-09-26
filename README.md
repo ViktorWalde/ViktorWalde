@@ -20,7 +20,7 @@ Kinein Vectis is a **Linux-first IDE for C, C++, Rust and Python**. It uses a Qt
 
 The idea is to make the development environment easier to understand: what the IDE detects, what the developer selects and what a task actually uses. Compilers, targets, SDKs and toolchains should remain visible and under the developer's control.
 
-**Public release as of September 2026:** 0.2.0 beta for Linux x86_64. The [site](https://viktorwalde.github.io/KineinSite/) separates the released beta from work in progress and longer-term plans. My interest in ROS 2 and deeper project understanding informs that direction; it does not imply that every such workflow is already available in the beta.
+**Public release as of September 2026:** 0.2.0 beta for Linux x86_64. The [site](https://viktorwalde.github.io/KineinSite/) separates the released beta from work in progress and longer-term plans. ROS 2 and deeper project understanding are ongoing areas of study and product direction; the site tracks their status.
 
 [Visit the site](https://viktorwalde.github.io/KineinSite/) · [Download the beta](https://github.com/ViktorWalde/KineinVectis/releases/tag/v0.2.0) · [Explore the source](https://github.com/ViktorWalde/KineinVectis) · [Join the community](https://discord.gg/cWRkUGUmQU)
 
