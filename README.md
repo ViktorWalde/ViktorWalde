@@ -1,42 +1,54 @@
-# Vitor Hugo da Silva (Viktor)
+# Vitor Hugo da Silva · ViktorWalde
 
-**Software developer · Embedded systems · Robotics · Linux**
+**Software developer working across embedded systems, robotics and industrial software.**
 
-I work on software for systems that connect code, devices and the physical world. I am an R&D&I fellow at a SENAI Institute of Technology in Brazil, and I build **Kinein Vectis**, an open-source IDE for embedded and systems development.
+I am an R&D&I fellow at a SENAI Institute of Technology in Brazil and study Systems Analysis and Development at PUCPR. My current focus is software closer to hardware and physical systems; my background in industrial and backend software helps me connect devices, gateways, services and data.
 
-### Kinein Vectis
+I build [**Kinein Vectis**](https://github.com/ViktorWalde/KineinVectis), an open-source IDE for systems and embedded development.
 
-**An IDE that makes the project's tools and environment visible.** Vectis brings together the project, detected toolchains and SDKs, and the developer's choices for building, testing and debugging. It integrates existing tools such as CMake, Cargo and language servers.
-
-The public beta is **0.2.0 for Linux x86_64**. The IDE is under active development; see the site for the current beta, work in progress and product direction.
-
-| Start here | Link |
+| Explore | Link |
 | --- | --- |
-| Understand the project and its current state | [Kinein Vectis website](https://viktorwalde.github.io/KineinSite/) |
-| Try the Linux beta | [Download 0.2.0 and read release notes](https://github.com/ViktorWalde/KineinVectis/releases/tag/v0.2.0) |
-| Explore the code | [IDE repository](https://github.com/ViktorWalde/KineinVectis) |
-| Set up and use the IDE | [Documentation](https://viktorwalde.github.io/KineinSite/documentacao/) |
-| Share feedback or discuss the project | [Kinein Vectis Discord](https://discord.gg/cWRkUGUmQU) |
+| What Kinein Vectis is and where it stands | [Project website](https://viktorwalde.github.io/KineinSite/) |
+| Try the public Linux beta | [Download and release notes](https://github.com/ViktorWalde/KineinVectis/releases/tag/v0.2.0) |
+| Read the code and contribute | [IDE repository](https://github.com/ViktorWalde/KineinVectis) |
+| Find a starting point | [Documentation](https://viktorwalde.github.io/KineinSite/documentacao/) |
+| Get in touch | [LinkedIn](https://www.linkedin.com/in/vitor-hugo-da-silva-54359b312/) |
 
-**Languages:** C · C++ · Rust · Python. My main interests include firmware, embedded Linux, IoT/IIoT and robotics. Deeper project understanding and ROS 2 workflows are part of the project's direction; the beta should be assessed by its current release.
+## Kinein Vectis
 
-### About my work
+Kinein Vectis is a **Linux-first IDE for C, C++, Rust and Python**. It uses a Qt/QML interface and a Rust core to work with tools from each ecosystem, including build systems, language servers and debuggers.
 
-- **Now:** embedded systems, ROS 2 and robotics software, Linux tooling, C/C++, Rust and Python.
-- **Experience:** backend and industrial software, APIs, telemetry and databases.
-- **What connects them:** building software from devices and gateways through services and observability.
+The idea is to make the development environment easier to understand: what the IDE detects, what the developer selects and what a task actually uses. Compilers, targets, SDKs and toolchains should remain visible and under the developer's control.
 
-### Other projects
+**Public release as of September 2026:** 0.2.0 beta for Linux x86_64. The [site](https://viktorwalde.github.io/KineinSite/) separates the released beta from work in progress and longer-term plans. My interest in ROS 2 and deeper project understanding informs that direction; it does not imply that every such workflow is already available in the beta.
 
-- [Synka Core](https://github.com/ViktorWalde/SynkaCore) — industrial integration and telemetry.
-- [Synka Studio](https://github.com/ViktorWalde/SynkaStudio) — backend and industrial software platform.
-- [Synka Lens](https://github.com/ViktorWalde/SynkaLens) — industrial data analysis.
+[Visit the site](https://viktorwalde.github.io/KineinSite/) · [Download the beta](https://github.com/ViktorWalde/KineinVectis/releases/tag/v0.2.0) · [Explore the source](https://github.com/ViktorWalde/KineinVectis) · [Join the community](https://discord.gg/cWRkUGUmQU)
 
-I am based in Paraná, Brazil. You can reach me through [LinkedIn](https://www.linkedin.com/in/vitor-hugo-da-silva-54359b312/) or follow the work on [GitHub](https://github.com/ViktorWalde).
+## What I work on
 
-<details>
-<summary>Resumo em português</summary>
+- **Embedded systems and robotics:** C/C++, Rust, Python, Linux and ROS 2 are the focus of my current technical development.
+- **Industrial software:** telemetry, gateways, APIs, data pipelines and software that connects operational and information systems.
+- **Developer tooling:** build and debugging workflows, project context, explicit configuration and tools that help engineers understand their environment.
 
-Sou desenvolvedor de software e bolsista de P&D&I em um Instituto SENAI de Tecnologia. Construo a **Kinein Vectis**, uma IDE open source para sistemas e embarcados. O [site do projeto](https://viktorwalde.github.io/KineinSite/) apresenta o beta atual, a documentação e o que está em desenvolvimento. Meu foco de estudo e atuação inclui sistemas embarcados, Linux, robótica, ROS 2 e IoT/IIoT.
+I am interested in the path from a sensor or device to a reliable service and a useful view of its data. That is also why I work on backend and observability alongside embedded and robotics software.
 
-</details>
+## Selected projects
+
+| Project | What it explores | Main stack |
+| --- | --- | --- |
+| [Kinein Vectis](https://github.com/ViktorWalde/KineinVectis) | IDE for systems and embedded development | Rust · Qt/QML · C++ |
+| [SynkaCore](https://github.com/ViktorWalde/SynkaCore) | Durable industrial data acquisition between OT and IT | Go · Protobuf · SQLite · TimescaleDB |
+| [SynkaStudio](https://github.com/ViktorWalde/SynkaStudio) | Multi-tenant MES backend for industrial operations | Java · Spring Boot · PostgreSQL |
+| [Synka Lens](https://github.com/ViktorWalde/SynkaLens) | Read-only industrial analytics and dashboards | Python · DuckDB · Streamlit |
+
+## Em português
+
+Sou desenvolvedor de software, bolsista de P&D&I em um Instituto SENAI de Tecnologia e estudante de ADS na PUCPR. Meu foco atual é aproximar software, sistemas embarcados e robótica, aproveitando minha experiência com backend e software industrial.
+
+A [Kinein Vectis](https://viktorwalde.github.io/KineinSite/) é o meu projeto principal: uma IDE open source para C, C++, Rust e Python. O beta público 0.2.0 está disponível para Linux x86_64; o site distingue o que já foi distribuído daquilo que está em desenvolvimento.
+
+**Para conhecer o projeto:** [site](https://viktorwalde.github.io/KineinSite/) · [código](https://github.com/ViktorWalde/KineinVectis) · [download](https://github.com/ViktorWalde/KineinVectis/releases/tag/v0.2.0) · [documentação](https://viktorwalde.github.io/KineinSite/documentacao/).
+
+---
+
+Based in Paraná, Brazil · [LinkedIn](https://www.linkedin.com/in/vitor-hugo-da-silva-54359b312/) · [GitHub](https://github.com/ViktorWalde)
