@@ -1,7 +1,8 @@
+
 <p align="center">
   <img
     src="./assets/wallpaperPyshicsAmbient.png"
-    alt="Vitor Hugo da Silva — Embedded Systems, Robotics and Software Engineering"
+    alt="Vitor Hugo da Silva — Robotics and Software Engineering"
     width="100%"
   />
 </p>
@@ -9,37 +10,26 @@
 <h1 align="center">Vitor Hugo da Silva</h1>
 
 <p align="center">
-  <strong>Embedded Systems · Robotics · ROS 2 · C/C++ · Rust · Python · Linux · R&D&I</strong>
+  <strong>Robotics & Software Developer</strong>
 </p>
 
 <p align="center">
-  Software Developer and R&D&I Fellow at a SENAI Institute of Technology,
-  focused on embedded systems, robotics, ROS 2, IoT and systems software.
+  <strong>C# / .NET · ROS 2 · C++ · Python · Linux · R&D&I</strong>
 </p>
 
 <p align="center">
-  <code>ROS 2</code> •
-  <code>C</code> •
-  <code>C++</code> •
-  <code>Rust</code> •
-  <code>Python</code> •
-  <code>Linux</code> •
-  <code>Embedded Systems</code> •
-  <code>IoT / IIoT</code>
+  Building software that connects industrial systems, robotics and the physical world.
 </p>
 
 <p align="center">
   <a href="https://github.com/ViktorWalde">
-    <img
-      src="https://img.shields.io/badge/GitHub-ViktorWalde-181717?style=for-the-badge&logo=github"
-      alt="GitHub"
-    />
+    <img src="https://img.shields.io/badge/GitHub-ViktorWalde-181717?style=flat-square&logo=github" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/vitor-hugo-da-silva-54359b312/">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-Vitor%20Hugo%20da%20Silva-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
+    <img src="https://img.shields.io/badge/LinkedIn-Vitor%20Hugo%20da%20Silva-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://viktorwalde.github.io/KineinSite/">
+    <img src="https://img.shields.io/badge/Project-Kinein%20Vectis-34495E?style=flat-square" alt="Kinein Vectis website" />
   </a>
 </p>
 
@@ -47,397 +37,110 @@
 
 ## About Me
 
-I'm a software developer from Brazil currently focusing my technical development on **embedded systems, robotics and Research, Development & Innovation (R&D&I)**.
+I'm a software developer from Paraná, Brazil, and an undergraduate student in **Systems Analysis and Development at PUCPR**.
 
-I currently hold an **R&D&I scholarship at a SENAI Institute of Technology**, where my development path is increasingly centered around:
+My work brings together two areas that I want to keep developing in parallel:
 
-* embedded systems;
-* ROS 2 and robotics software;
-* C and modern C++;
-* Rust for systems and embedded development;
-* Python for engineering, automation and IoT;
-* Linux and embedded Linux;
-* communication between devices, sensors and software systems;
-* research, prototyping and validation of technological solutions.
+- **Robotics and R&D&I:** I am an R&D&I scholarship fellow at a **SENAI Institute of Technology**, developing practical knowledge in robotics, ROS 2, automation and integration with physical systems.
+- **C# and software engineering:** I have professional experience developing **industrial production-management software in C#**, including desktop interfaces and integration with devices and production data.
 
-My previous experience is mainly in **backend and industrial software engineering**, including Java, Spring Boot, APIs, databases, distributed applications and industrial telemetry.
+I am particularly interested in engineering problems that require both reliable software and an understanding of the equipment, processes and people it serves.
 
-That background remains useful because the systems I want to build often connect multiple layers:
+## What I Focus On
 
-```text
-Software
-   ↓
-Backend / Services
-   ↓
-Edge / Linux
-   ↓
-Embedded Systems
-   ↓
-Sensors / Actuators
-   ↓
-Physical Systems
-```
+### Robotics & Industrial Automation
 
-My current goal is to deepen my knowledge closer to the boundary between **software, hardware and physical systems**.
+My current robotics work and studies include:
 
----
+- Industrial robot programming, manipulation sequences and gripper integration.
+- **ROS 2** applications with C++ (`rclcpp`) and Python (`rclpy`).
+- Nodes, topics, services, actions and distributed robotic communication.
+- Coordinate frames, TF2, URDF/Xacro and visualization with RViz2.
+- Sensor integration, actuators and the software/hardware interface.
+- Prototyping, testing and validation in an R&D&I environment.
 
-## Current Focus
+### C# / .NET & Industrial Software
 
-My current technical path is centered around four main areas.
+My software engineering focus includes:
 
-### Robotics & ROS 2
+- **C# and .NET** for desktop applications and application logic.
+- Production-management workflows and industrial software interfaces.
+- Integrating software with devices and manufacturing data.
+- Designing maintainable services, data models and APIs.
+- Connecting **shop-floor systems (OT/TA)** with business and information systems (IT/TI).
 
-* ROS 2 architecture and middleware
-* nodes, topics, services and actions
-* parameters and launch systems
-* QoS and DDS concepts
-* `rclcpp`
-* `rclpy`
-* TF2 and coordinate frames
-* URDF and Xacro
-* RViz2
-* sensor integration
-* distributed robotic systems
+I'm also exploring the architecture of **MES, OEE monitoring, PLC data acquisition and industrial telemetry** as a direction for future software products.
 
-### Embedded Systems
+## Engineering Perspective
 
-* C
-* modern C++
-* Rust
-* microcontrollers
-* serial communication
-* cross-compilation
-* toolchains and SDKs
-* flashing and debugging
-* RTOS concepts
-* embedded Linux
-
-### Linux & Systems Development
-
-* Linux development environments
-* CMake
-* Cargo
-* GCC
-* Clang
-* GDB
-* LLDB
-* language servers
-* build systems
-* containers
-
-### IoT & Edge
-
-* MQTT
-* gateways
-* device communication
-* industrial telemetry
-* local services
-* databases
-* edge-to-backend architectures
-
----
-
-## Featured Project
-
-### Kinein Vectis
-
-**Linux-first open-source IDE for embedded, systems and IoT development.**
-
-**C · C++ · Rust · Python**
-
-Kinein Vectis is currently my main independent software project.
-
-The project explores how a development environment can make **toolchains, targets, SDKs, compilers, language servers, debuggers and connected hardware explicit and understandable**, instead of hiding them behind opaque configuration.
-
-The IDE does not try to replace the existing development ecosystem.
-
-It integrates and orchestrates existing tools.
+I enjoy working across the layers between physical processes and software applications:
 
 ```text
-Qt / QML Frontend
-        │
-        │ JSON-RPC
-        ▼
-     Rust Core
-        │
-   ┌────┼────────────┐
-   ▼    ▼            ▼
- CMake Cargo       Python
-clangd rust-       basedpyright
-       analyzer
-   │    │            │
-   └────┼────────────┘
-        ▼
- Toolchains · Debuggers
- Git · Containers · Devices
- SDKs · Embedded Tooling
+      Robots · PLCs · Sensors
+                 │
+                 ▼
+     Robotics / Device Integration
+        ROS 2 · C++ · Python
+                 │
+                 ▼
+        Industrial Software
+             C# / .NET
+                 │
+                 ▼
+    Production Management · Monitoring
+            Data · Insights
 ```
 
-#### Main areas
-
-* C and C++ development
-* Rust and Cargo
-* Python environments
-* CMake
-* language servers
-* native debugging
-* build and testing
-* Git workflows
-* Docker and Podman
-* cross-compilation
-* serial devices
-* embedded toolchains
-* ESP-IDF
-* Zephyr
-* STM32
-* Raspberry Pi Pico
-* Rust bare metal
-* MicroPython
-* Yocto
-* Buildroot
-* QEMU
-
-The project is currently in **public beta**.
-
-**Current release:** `0.2.0`
-
-* [Kinein Vectis Repository](https://github.com/ViktorWalde/KineinVectis)
-* [Download Kinein Vectis 0.2.0](https://github.com/ViktorWalde/KineinVectis/releases/tag/v0.2.0)
-* [Kinein Vectis Discord](https://discord.gg/cWRkUGUmQU)
+These layers can be independent systems; the diagram represents the kind of end-to-end integration problems I want to solve.
 
 ---
 
-## ROS 2 & Robotics
+## Featured Open-Source Project
 
-ROS 2 is one of the main technologies in my current development path.
+### [Kinein Vectis](https://github.com/ViktorWalde/KineinVectis)
 
-### ROS 2 Core
+**A Linux-first, open-source IDE for C, C++, Rust and Python development.**
 
-`Nodes` · `Topics` · `Services` · `Actions` · `Parameters` · `Launch` · `QoS` · `DDS`
+Kinein Vectis is my independent software engineering project. It focuses on making development environments easier to understand and control by integrating existing compilers, build tools, language servers, debuggers and embedded toolchains.
 
-### Development
+- **Architecture:** Qt/QML frontend with a Rust core.
+- **Ecosystems:** C/C++, Rust, Python, Linux and embedded development.
+- **Engineering focus:** tooling integration, explicit configuration, build/debug workflows and developer experience.
 
-`rclcpp` · `rclpy` · `CMake` · `ament_cmake` · `ament_python` · `colcon`
+**Latest public beta verified:** `v0.3.5` (October 2026).
 
-### Robot Representation
+[Repository](https://github.com/ViktorWalde/KineinVectis) · [Download public beta](https://github.com/ViktorWalde/KineinVectis/releases/tag/v0.3.5) · [Website & documentation](https://viktorwalde.github.io/KineinSite/) · [Community](https://discord.gg/cWRkUGUmQU)
 
-`URDF` · `Xacro` · `TF2` · `Joint States` · `Robot State Publisher`
-
-### Visualization & Perception
-
-`RViz2` · `OpenCV` · `Image Topics` · `Point Clouds` · `Markers` · `Camera Pipelines`
-
-### Hardware Integration
-
-`Sensors` · `Actuators` · `Serial` · `Networking` · `MQTT` · `Embedded Devices`
+> The IDE's current focus is systems and embedded development. Robotics tooling is an area of interest, not a claim of full ROS 2 integration in the released version.
 
 ---
 
-## Embedded & Systems Ecosystem
+## Technical Toolkit
 
-### Languages
+| Area | Languages, tools & technologies |
+| --- | --- |
+| **Software Engineering** | C#, .NET, desktop applications, APIs, SQL, Git |
+| **Robotics** | ROS 2, C++, Python, `rclcpp`, `rclpy`, RViz2, TF2, URDF |
+| **Systems & Embedded** | C, C++, Rust, Linux, CMake, Cargo, GDB |
+| **Industrial Integration** | Device communication, IoT/IIoT, MQTT, industrial telemetry |
+| **Development Tools** | GitHub, Docker, Qt/QML, testing and debugging |
 
-`C` · `C++` · `Rust` · `Python`
+## Currently Learning & Exploring
 
-### Build & Tooling
+- More advanced **ROS 2** development, robot modeling and coordinate transformations.
+- Industrial and mobile robotics, control and sensor integration.
+- **C#/.NET architectures** for scalable industrial and production software.
+- PLC communication, production indicators and **OEE/MES** concepts.
+- Embedded Linux and systems programming when they support robotics or automation problems.
 
-`CMake` · `Cargo` · `GCC` · `Clang` · `GDB` · `LLDB`
+## Let's Connect
 
-### Embedded
+I'm interested in collaborating on **robotics, industrial automation, C#/.NET software and applied R&D&I**.
 
-`ESP-IDF` · `Zephyr` · `STM32` · `pico-sdk` · `PlatformIO` · `MicroPython`
-
-### Embedded Linux
-
-`Yocto` · `Buildroot` · `QEMU` · `Cross Toolchains` · `Sysroots`
-
-### Robotics
-
-`ROS 2` · `RViz2` · `TF2` · `URDF` · `rclcpp` · `rclpy`
-
-### Edge & Infrastructure
-
-`Linux` · `Docker` · `Podman` · `MQTT` · `PostgreSQL` · `TimescaleDB`
-
----
-
-## Previous Software Engineering Background
-
-Before shifting my main specialization toward robotics and embedded systems, much of my work was centered on **backend and industrial software engineering**.
-
-My previous stack includes:
-
-`Java` · `Spring Boot` · `REST APIs` · `PostgreSQL` · `TimescaleDB` · `Docker` · `MQTT` · `OPC UA` · `Automated Testing` · `Distributed Systems`
-
-I see this background as another layer of the systems I want to work on:
-
-```text
-Embedded Device
-      │
-      ▼
-   Gateway
-      │
-      ▼
- Edge / Linux
-      │
-      ▼
- Backend / API
-      │
-      ▼
- Data / Observability
-```
-
-Rather than moving away from software engineering, my current direction is expanding that foundation toward systems that interact directly with hardware and the physical world.
-
----
-
-## Selected Previous Projects
-
-### Synka Core
-
-Industrial integration middleware developed with Java and Spring Boot.
-
-Main areas:
-
-* industrial telemetry;
-* OPC UA;
-* MQTT;
-* TimescaleDB;
-* resilient ingestion;
-* store-and-forward;
-* fault tolerance;
-* backend architecture.
-
-[View Synka Core](https://github.com/ViktorWalde/SynkaCore)
-
----
-
-### Synka Studio
-
-Industrial software platform developed around Java, Spring Boot and Angular.
-
-Main areas:
-
-* backend architecture;
-* REST APIs;
-* authentication;
-* relational modeling;
-* multi-tenant applications;
-* Angular interfaces;
-* containerized deployment.
-
-[View Synka Studio](https://github.com/ViktorWalde/SynkaStudio)
-
----
-
-### Synka Lens
-
-Industrial data analytics project developed in Python.
-
-Main areas:
-
-* time-series data;
-* TimescaleDB;
-* DuckDB;
-* Parquet;
-* data-quality validation;
-* operational analytics.
-
-[View Synka Lens](https://github.com/ViktorWalde/SynkaLens)
-
----
-
-## Technical Stack
-
-### Robotics
-
-`ROS 2` · `RViz2` · `URDF` · `TF2` · `rclcpp` · `rclpy`
-
-### Systems Programming
-
-`C` · `C++` · `Rust` · `Python` · `CMake` · `Cargo`
-
-### Embedded
-
-`ESP-IDF` · `Zephyr` · `STM32` · `pico-sdk` · `PlatformIO` · `MicroPython`
-
-### Embedded Linux
-
-`Linux` · `Yocto` · `Buildroot` · `QEMU` · `Cross Compilation`
-
-### Computer Vision
-
-`OpenCV` · `YOLO`
-
-### IoT & Edge
-
-`MQTT` · `Serial` · `IoT` · `IIoT` · `Edge Computing`
-
-### Infrastructure
-
-`Git` · `Docker` · `Podman` · `PostgreSQL` · `TimescaleDB` · `CI/CD`
-
-### Previous Backend Stack
-
-`Java` · `Spring Boot` · `Angular`
-
----
-
-## Research & Engineering Interests
-
-* Robotics
-* ROS 2
-* Embedded Systems
-* Embedded Linux
-* Systems Programming
-* Industrial Robotics
-* Autonomous Systems
-* Computer Vision
-* IoT / IIoT
-* Edge Computing
-* Cyber-Physical Systems
-* Open-source engineering tools
-* Research, Development & Innovation
-
----
-
-## Engineering Direction
-
-I'm particularly interested in systems where several engineering domains meet:
-
-```text
-                     Robotics
-                        │
-          ┌─────────────┴─────────────┐
-          │                           │
-      Perception                  Control
-          │                           │
-   Computer Vision                   ROS 2
-          │                           │
-          └─────────────┬─────────────┘
-                        │
-                 Embedded Systems
-                        │
-                Sensors / Actuators
-                        │
-                  Embedded Linux
-                        │
-                    IoT / Edge
-                        │
-                  Backend / APIs
-```
-
-My previous backend experience represents the upper layers of this architecture.
-
-My current objective is to deepen my knowledge toward **embedded computing, robotics, systems programming and the software/hardware boundary**.
-
----
+[GitHub](https://github.com/ViktorWalde) · [LinkedIn](https://www.linkedin.com/in/vitor-hugo-da-silva-54359b312/)
 
 <p align="center">
-  <strong>Embedded Systems · Robotics · ROS 2 · Linux · R&D&I</strong>
+  <strong>Robotics · C#/.NET · ROS 2 · Industrial Software</strong>
 </p>
 
-<p align="center">
-  Paraná — Brazil
-</p>
+<p align="center">Paraná, Brazil</p>
